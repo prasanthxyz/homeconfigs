@@ -6,22 +6,13 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'delimitMate.vim'
-Plugin 'Python-Syntax'
 Plugin 'vim-airline'
-" Plugin 'cscope.vim'
 Plugin 'ctrlp.vim'
-Plugin 'SuperTab'
-" Plugin 'Syntastic'
-" Plugin 'Auto-Pairs'
 " Plugin 'tpope/vim-fugitive'
 Plugin 'elzr/vim-json'
-" Plugin 'EasyMotion'
 " Plugin 'surround.vim'
-" Plugin 'rstacruz/sparkup'
-" Plugin 'snipMate'
 Plugin 'tComment'
 Plugin 'AutoComplPop'
-" Plugin 'jistr/vim-nerdtree-tabs'
 
 " Gvim
 "if has('gui_running')
@@ -38,12 +29,12 @@ let mapleader=","
 map <leader>c <c-_><c-_>
 
 " Spellcheck
-set spellfile=~/.vim/spell/en.utf-8.add
-set spelllang=en
-noremap <leader>sp :SpellToggle<CR>
-if !exists(":SpellToggle")
-	command SpellToggle if &spell | set nospell | else | set spell | endif
-endif
+" set spellfile=~/.vim/spell/en.utf-8.add
+" set spelllang=en
+" noremap <leader>sp :SpellToggle<CR>
+" if !exists(":SpellToggle")
+" 	command SpellToggle if &spell | set nospell | else | set spell | endif
+" endif
 
 
 " Colors
